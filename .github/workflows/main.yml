@@ -5,9 +5,9 @@ on:
 
 jobs:
   greet:
-    runs-on: ubuntu-latest
     env: 
       MY_ENV: "John David Luther"
+    runs-on: ubuntu-latest
     steps:
       - name: Greet the User
         run: echo "Hello World!"
