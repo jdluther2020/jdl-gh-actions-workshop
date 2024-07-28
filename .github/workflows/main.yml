@@ -5,7 +5,7 @@ on:
 
 jobs:
   greet:
-    env: 
+    env:
       MY_ENV: "John David Luther"
     runs-on: ubuntu-latest
     steps:
