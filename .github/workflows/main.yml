@@ -12,6 +12,6 @@ jobs:
       - name: Greet the User
         run: echo "Hello World!"
       - name: Run a multi-line script
-       run: |
+        run: |
           echo "Hello $MY_ENV"
           echo "Hello $GITHUB_ACTOR"
